@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	httpclient "github.com/casibase/dashscope-go-sdk/httpclient"
+	httpclient "github.com/hanzoai/dashscope-go-sdk/httpclient"
 	"github.com/google/uuid"
 )
 

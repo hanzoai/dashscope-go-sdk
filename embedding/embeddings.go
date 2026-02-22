@@ -3,7 +3,7 @@ package embedding
 import (
 	"context"
 
-	"github.com/casibase/dashscope-go-sdk/httpclient"
+	"github.com/hanzoai/dashscope-go-sdk/httpclient"
 )
 
 const (
