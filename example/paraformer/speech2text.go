@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
-	dashscopego "github.com/casibase/dashscope-go-sdk"
+	dashscopego "github.com/hanzoai/dashscope-go-sdk"
 
-	"github.com/casibase/dashscope-go-sdk/paraformer"
+	"github.com/hanzoai/dashscope-go-sdk/paraformer"
 )
 
 func main() {

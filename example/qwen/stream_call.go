@@ -4,12 +4,12 @@ import (
 	"context"
 	"log"
 
-	dashscopego "github.com/casibase/dashscope-go-sdk"
-	"github.com/casibase/dashscope-go-sdk/embedding"
+	dashscopego "github.com/hanzoai/dashscope-go-sdk"
+	"github.com/hanzoai/dashscope-go-sdk/embedding"
 
 	//"os"
 
-	"github.com/casibase/dashscope-go-sdk/qwen"
+	"github.com/hanzoai/dashscope-go-sdk/qwen"
 )
 
 func main() {
