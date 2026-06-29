@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="dashscope-go-sdk" width="880"></p>
+
 ### dashscopego
 forked from devinyf/dashscopego
 阿里云平台 dashscope api 的 golang 封装 (非官方)
