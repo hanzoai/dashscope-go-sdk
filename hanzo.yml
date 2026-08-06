@@ -1,0 +1,16 @@
+# hanzoai/dashscope-go-sdk — Go client for the DashScope/Qwen APIs. A library:
+# ships from a tag as a Go module, builds no image, deploys nowhere.
+#
+# Compile everything, then run the suite. The suite is honest without a
+# credential: the tests that need a live key call t.Skip when DASHSCOPE_API_KEY
+# is empty, and the gomock-backed tests (request shaping, response decoding,
+# the SSE stream splitter) run offline and are the ones that actually pin this
+# client's behaviour. So this gate goes red on a real break and never on a
+# missing secret.
+test:
+  - name: build-and-test
+    run: |
+      set -e
+      go build ./...
+      go vet ./...
+      go test -count=1 ./...
